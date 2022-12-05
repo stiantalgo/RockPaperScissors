@@ -1,0 +1,67 @@
+html{
+    background-color: rgb(10, 15, 15);
+}
+body{
+    /*Run los*/
+  position: relative;
+  min-height: 100vh;
+}
+#gameDiv{
+    /*Run los*/
+  position :absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  box-sizing: border-box;
+  text-align: center;
+
+  background-color: rgb(0, 0, 0);
+  color: cyan;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 50px;
+  width: 500px;
+
+
+}
+
+.gameText{
+    color: cyan;
+}
+
+.choiceBtn{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid;
+    color: cyan;
+    margin-left: 20px;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.choiceBtn:hover{
+    background-color: rgb(136, 133, 133);
+    transform: scale(1.05);
+}
+
+#counter{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 30px;
+    background-color: black;
+    color: rgb(140, 218, 218);
+}
+
+
+
+#playerDisplay{
+color: cyan;
+}
+#computerDisplay{
+    color: red;
+}
+#drawDisplay{
+    color: white;
+}
